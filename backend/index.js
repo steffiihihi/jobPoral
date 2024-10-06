@@ -19,6 +19,7 @@ app.use(cookieParser());
 const corsOptions = {
     origin:['http://127.0.0.1:5173',
     "https://job-poral.vercel.app"],
+
     // origin:'http://localhost:5173',
     credentials:true
 }
